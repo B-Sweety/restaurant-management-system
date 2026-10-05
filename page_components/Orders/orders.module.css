@@ -1,0 +1,175 @@
+.main {
+
+  background: #f7f7f2;
+  box-sizing: border-box;
+  height: calc(100vh - 30px);
+  overflow: hidden;
+  
+}
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(39, 38, 38);
+  
+}
+
+.heading1 {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(39, 38, 38);
+
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+.statusNav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.statusNav button {
+  width: 120px;
+  height: 38px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #6b7280;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.statusNav button:hover {
+  background-color: #e5e7eb;
+  color: #272626;
+}
+
+.statusNav button.activeStatus {
+  background-color: #272626 ;
+  color: white ;
+  font-weight: 600;
+}
+
+.order_table {
+  margin-top: 25px;
+  width: 100%;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.order_table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order_table th {
+  text-align: left;
+  padding: 16px 18px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #6b7280;
+  background: #fafafa;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.order_table td {
+  padding: 18px;
+  font-size: 14px;
+  color: #272626;
+  border-bottom: 1px solid #eeeeee;
+  vertical-align: top;
+}
+
+.order_table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+
+.orderRow {
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.orderRow:hover {
+  background: #fff7f4;
+}
+
+
+.order_table td:first-child {
+  font-weight: 600;
+  color: #272626;
+}
+
+
+.order_table td:nth-child(3) div {
+  margin-bottom: 5px;
+}
+
+.order_table td:nth-child(3) div:last-child {
+  margin-bottom: 0;
+}
+
+
+.status {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+
+.received {
+  background: #fff4d6;
+  color: #9a6b00;
+}
+
+.preparing {
+  background: #e8f0ff;
+  color: #3564b8;
+}
+
+.ready {
+  background: #e5f5eb;
+  color: #34734a;
+}
+
+.outfordelivery {
+  background: #eee8ff;
+  color: #6a4bb5;
+}
+
+.completed {
+  background: #e5f5eb;
+  color: #34734a;
+}
+
+.cancelled {
+  background: #fde8e8;
+  color: #c43d3d;
+}
+
+@media (max-width: 900px) {
+  .order_table {
+    overflow-x: auto;
+  }
+
+  .order_table table {
+    min-width: 850px;
+  }
+}

@@ -1,0 +1,147 @@
+.main {
+  background: #f7f7f2;
+  /* padding: 60px 30px 30px; */
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(39, 38, 38);
+  
+}
+
+.heading1 {
+  font-size: 15px;
+  color: #6b7280;
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  /* margin-top: 30px; */
+}
+
+.categoryNav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.categoryNav button {
+  width: 100px;
+  height: 38px;
+  padding: 0 12px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #6b7280;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.categoryNav button:hover {
+  background-color: #6b7280;
+  color: #d1d5db;
+}
+
+.categoryNav button.activeCategory {
+  background-color: #272626 ;
+  color: white ;
+  font-weight: 600;
+
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.imageBox {
+  width: 100%;
+  height: 170px;
+  background: #f7f7f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 15px;
+}
+
+.category {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 5px;
+}
+
+.itemName {
+  font-size: 17px;
+  font-weight: 600;
+  color: #272626;
+}
+
+.cardBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 600;
+  color: #272626;
+}
+.line {
+  border: none;
+  border-top: 1px solid #d1d5db;
+  margin: 20px 0;
+}
+.edit{
+  color:rgb(141, 13, 13);
+  font-size: 15px;
+}
+
+.available {
+  color: #4e8462;
+  background: #e5f4e9;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.unavailable {
+  color: #c76d58;
+  background: #f8e8e4;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+}

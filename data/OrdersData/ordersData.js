@@ -1,0 +1,68 @@
+const orderData = [
+  {
+    id: "ORD1001",
+    customer: "Rahul Sharma",
+    items: ["Margherita Pizza ×1", "Cold Coffee ×1"],
+    type: "Dine-in",
+    status: "Completed",
+    total: 508,
+  },
+  {
+    id: "ORD1002",
+    customer: "Priya Nair",
+    items: ["Classic Burger ×2", "Fries ×1"],
+    type: "Takeaway",
+    status: "Preparing",
+    total: 747,
+  },
+  {
+    id: "ORD1003",
+    customer: "Arjun Mehta",
+    items: ["Chicken Biryani ×2", "Cold Coffee ×2"],
+    type: "Delivery",
+    status: "Out for Delivery",
+    total: 1076,
+  },
+  {
+    id: "ORD1004",
+    customer: "Sneha Rao",
+    items: ["Caesar Salad ×1", "Creamy Pasta ×1"],
+    type: "Dine-in",
+    status: "Ready",
+    total: 578,
+  },
+  {
+    id: "ORD1005",
+    customer: "Vikram Das",
+    items: ["Paneer Tikka ×1", "Fries ×2"],
+    type: "Delivery",
+    status: "Received",
+    total: 587,
+  },
+  {
+    id: "ORD1006",
+    customer: "Ananya Iyer",
+    items: ["Creamy Pasta ×2"],
+    type: "Takeaway",
+    status: "Cancelled",
+    total: 658,
+  },
+  {
+    id: "ORD1007",
+    customer: "Karan Singh",
+    items: ["Margherita Pizza ×2"],
+    type: "Dine-in",
+    status: "Completed",
+    total: 698,
+  },
+  {
+    id: "ORD1008",
+    customer: "Meera Joshi",
+    items: ["Chicken Biryani ×1", "Salad ×1"],
+    type: "Delivery",
+    status: "Preparing",
+    total: 628,
+  },
+];
+
+export default orderData;
