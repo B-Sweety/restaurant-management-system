@@ -1,3 +1,40 @@
+# SpiceRoute Restaurant Management System
+
+A frontend-only restaurant management dashboard for SpiceRoute, a casual restaurant offering dine-in, takeaway, and delivery orders.
+
+The app uses supplied static data as its initial data source. Updates such as changing order status, editing menu items, and adjusting ingredient quantities are simulated in the frontend using local state or `localStorage`.
+
+## Features
+
+- **Dashboard:** Today's revenue, order count, average order value, active orders, order status summary, low-stock alerts, and recent orders.
+- **Orders:** Search by order ID or customer, filter by status, view order details, and update order status.
+- **Menu:** Browse and search items, filter by category, toggle availability, and add or edit menu items with validation.
+- **Inventory:** Search and filter ingredients, view stock levels, update quantities, and identify low-stock items.
+- **Order details:** View customer information, items, calculated totals, payment status, and order status timeline.
+- **Responsive layout:** Sidebar on desktop and a usable layout on mobile.
+
+## Routes
+
+| Route | Description |
+| --- | --- |
+| `/dashboard` | Business overview and recent activity |
+| `/orders` | Searchable, filterable order list |
+| `/orders/[id]` | Details for an individual order |
+| `/menu` | Menu items and availability |
+| `/inventory` | Ingredient stock and reorder levels |
+
+## Getting Started
+
+### Requirements
+
+- Node.js
+- pnpm
+
+### Install and run
+
+```bash
+pnpm install
+pnpm dev
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
