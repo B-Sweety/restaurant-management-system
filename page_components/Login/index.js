@@ -1,7 +1,7 @@
 
 
 import { useState } from "react";
-import styles from "./login.module.css";
+import styles from "./styles.module.css";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./form.module.css";
+import styles from "./styles.module.css";
 
 export default function ItemForm({ item, onSubmit, onClose }) {
 

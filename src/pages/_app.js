@@ -1,6 +1,7 @@
-import "../styles/global.css";
+
 import Sidebar from "../../page_components/Sidebar";
 import Header from "../../page_components/Header";
+import "../../common/styles/global.css";
 
 export default function App({ Component, pageProps }) {
   return (

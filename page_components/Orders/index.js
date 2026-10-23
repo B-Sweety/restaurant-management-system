@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 import orderData from "../../data/OrdersData/ordersData";
 import useFilterHook from "../../hooks/useFilterHook";
-import styles from "./orders.module.css";
+import styles from "./styles.module.css";
 
 export default function Orders() {
   const router = useRouter();

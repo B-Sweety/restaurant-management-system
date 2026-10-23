@@ -127,7 +127,7 @@
   box-shadow: 0 0 0 3px rgba(198, 83, 56, 0.1);
 }
 
-/* OPTIONS */
+
 
 .options {
   display: flex;
@@ -164,7 +164,7 @@
   cursor: pointer;
 }
 
-/* LOGIN BUTTON */
+
 
 .loginButton {
   width: 100%;

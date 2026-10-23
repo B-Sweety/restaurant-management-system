@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
-import styles from "./header.module.css";
+import styles from "./styles.module.css";
 
 export default function Header() {
   const [isServiceOpen, setIsServiceOpen] = useState(true);

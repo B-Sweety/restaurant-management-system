@@ -2,7 +2,7 @@ import { useState } from "react";
 import menuData from "../../data/MenuData/menuData";
 import useFilterHook from "../../hooks/useFilterHook";
 import ItemForm from "./form";
-import Modal from "../Modal";
+import Modal from "../../common/common_components/Modal";
 import styles from "./menu.module.css";
 
 export default function Menu() {
@@ -218,9 +218,10 @@ export default function Menu() {
      
       {showModal && (
         <Modal
+          className = {styles.form_title}  
           title={
             editingItem
-              ? "Customize Deliciously"
+              ? "Customize deliciously"
               : "Add something delicious."
           }
           onClose={() => {

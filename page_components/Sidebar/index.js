@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import styles from "./sidebar.module.css";
+import styles from "./styles.module.css";
 import Image from "next/image";
 
 export default function Sidebar() {
@@ -12,7 +12,13 @@ export default function Sidebar() {
             </div>
 
       <nav className={styles.nav}>
-        <div className={router.pathname === "/dashboard" ? styles.active : ""}>
+       <div
+  className={
+    router.pathname === "/" || router.pathname === "/dashboard"
+      ? styles.active
+      : ""
+  }
+>
             <Image
             src ="/dashboard.svg"
             alt ="dashboard icon"

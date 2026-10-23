@@ -1,11 +1,12 @@
 import inventoryData from "../../data/InventoryData/inventoryData";
 import useFilterHook from "../../hooks/useFilterHook";
 import { useState } from "react";
-import styles from "./inventory.module.css";
+import styles from "./styles.module.css";
 
 
 
 export default function Inventory() {
+  
  const {
   search,
   setSearch,

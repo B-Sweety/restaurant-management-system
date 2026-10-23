@@ -1,6 +1,6 @@
 import orderData from "../../data/OrdersData/ordersData";
 import inventoryData from "../../data/InventoryData/inventoryData";
-import styles from "./dashboard.module.css";
+import styles from "./styles.module.css";
 
 export default function Dashboard() {
   const totalOrders = orderData.length;
